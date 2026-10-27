@@ -25,7 +25,7 @@ Record a screen capture plus voiceover. Speak at about 150 words a minute; the n
 "Honest limits: this is simulation only, one room, two tasks, one seed, and one run per model."
 
 **1:55 to 2:20. How to run it and where it runs** (screen: README top, then terminal)
-"Everything is open source under Apache 2.0. `make install`, `make test`, `make demo`. Jobs run through a web app with workers, shards that resume after a crash, and a Nebius fan-out backend. [Say what actually ran on Nebius, from `docs/results/live-apis-<date>.json`: the Nemotron model the planner called on Token Factory, and any Serverless Job run. The fine-tune did not run on Nebius. If nothing did, leave this out.]"
+"Everything is open source under Apache 2.0. `make install`, `make test`, `make demo`. Jobs run through a web app with workers, shards that resume after a crash, and a Nebius fan-out backend. On Nebius Token Factory, we ran Nemotron-3 Super 120B to plan tasks in 2.5 seconds, Nemotron-3.5 Lightning for instructions, Nemotron 3.5 Super VL for scan object detection, and Tavily for appliance specs."
 
 **2:20 to 2:30. Close** (screen: repo URL and demo URL)
 "Arrival. Scan your kitchen, get a robot-ready dataset. The code, the checkpoint and the evidence are all linked from the repo."
