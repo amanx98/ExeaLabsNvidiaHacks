@@ -7,17 +7,19 @@ Work on this repository's laptop pass was done by the repo owner with Claude Cod
 ## Commits by author
 
 ```
-   236	redmythic1
-    60	aarochu
-    40	Aadi Tiwari
+   383	redmythic1
+   122	Aadi Tiwari
+   100	aarochu
+    21	amanx98
+    20	Akshaj Shandilya
+    20	Avneh Singh Bhatia
     14	Jahan Marbin
-    13	Akshaj Shandilya
     12	IshaanM05
-    10	Avneh Singh Bhatia
-     3	Anand Biju
+     7	Anand Biju
+     3	dependabot[bot]
      2	Amelia Patel
-     2	amanx98
      1	rishithc
+     1	vrun-systems26
 ```
 
 ## From forks, with no pull request
@@ -205,11 +207,20 @@ Work on this repository's laptop pass was done by the repo owner with Claude Cod
 - #153 [TWN-3] Draw RoomPlan doors, windows and openings in the sim as visual-only geoms (merged)
 - #154 [OPS-1] Upload worker: retry a failed job a bounded number of times (merged)
 
-### @amanx98 (3)
+### @amanx98 (12)
 
 - #3 feat(policy): [POL-1] [POL-2] Wire Nemotron VLMPlanner into sim colle… (merged)
 - #35 feat(research): [TAV-1] Implement Tavily AI Research Agent for appliance manuals and safety specs (merged)
 - #36 [MAN-3] Mobile Manipulator Base & 100% Physics-Checked Counter-to-Counter Transit     (closed)
+- #220 fix(sim): add interpersonal collision avoidance for walkers and re-export demo (merged)
+- #250 feat(doctor, export-site): harden environment checks and static export against invalid paths and encoding errors (merged)
+- #282 fix(sim): walkers yield to arm links without mobile base deadlock (merged)
+- #283 feat(eval): add arrival cost CLI with automated P3 teleop baseline comparison (C3, OPS-3) (merged)
+- #286 feat(jobs): implement native Windows tree_rss memory limit check via ctypes (merged)
+- #287 fix(cli): validate numerical parameter bounds and expand doctor Nebius env checks (merged)
+- #288 fix(web): drain rejected upload bodies to prevent TCP connection reset on Windows (merged)
+- #289 feat: harden subset and merge-shards cli validation and collision checks (merged)
+- #310 fix: replace unlicensed roomplan fixtures with authored clean captures (P5) (merged)
 
 ### @wwpatel (1)
 
